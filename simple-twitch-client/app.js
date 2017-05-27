@@ -25,7 +25,6 @@ function compileTemplate(id) {
 
     keys(data).forEach(function(key) {
       res = res.replace(regexes[key], data[key])
-      console.log(res)
     })
 
     return res
